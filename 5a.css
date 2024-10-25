@@ -1,0 +1,34 @@
+.first{
+    background-color: orange;
+    height: 200px;
+    margin: 40px;
+    /* to make it as inline element */
+    display: inline;
+}
+.second{
+    background-color: greenyellow;
+    height: 150px;
+    margin: 20px;
+}
+span{
+    background-color: pink;
+    /* these below doesn't change anything */
+    height: 250px; 
+    /* have horizontal margin */
+    margin: 20px; 
+
+    /* to activate block level element */
+    display: block;
+}
+
+a{
+    background-color: darkorchid;
+    display: inline-block;
+    height: 200px;
+    width: 100%;
+}
+
+
+/* display: Inline block === jo hamara element hoga jo behave karega
+ inline jaise lekin usme properties jaise height,
+ width hum block element jaise laga sakta hain*/

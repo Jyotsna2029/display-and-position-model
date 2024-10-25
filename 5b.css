@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.first, .third{
+    display: inline-flex;
+    height: 40vw;
+    width: 25vw;
+    margin-right: 5vw;
+    background-color: red;
+    margin-bottom: 5vw;
+}
+.second, .fourth{
+    display: inline-flex;
+    background-color: red;
+    width: 60vw;
+    height: 40vw;
+    margin-bottom: 5vw;
+    
+    
+    /*margin-bottom: 20vh;*/
+
+}
+/* 
+.second, .fourth{
+    margin-left: 15vw;
+}
+
+.third, .fourth{
+    margin-top: 20vh;
+} */
